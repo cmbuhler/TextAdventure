@@ -1,4 +1,4 @@
-package com.chasesspace.adventure.engine;
+package com.chasesspace.adventure.engine.dice;
 
 public class D8 extends Dice {
     public D8(int count) {
