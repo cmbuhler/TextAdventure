@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Maven Build & Run",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "com.chasesspace.adventure.Main",
+            "projectName": "TextAdventure",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "install"
+        },
+        {
+            "name": "Maven Run (skip tests)",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "com.chasesspace.adventure.Main",
+            "projectName": "TextAdventure",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "installSkipTests"
+        }
+    ]
+}

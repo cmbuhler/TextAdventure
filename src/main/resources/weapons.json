@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Short Sword",
+        "description": "A basic short sword.",
+        "damage": "1d6"
+    },
+    {
+        "name": "Long Bow",
+        "description": "A bow suitable for long-range attacks.",
+        "damage": "2d8"
+    }
+]
