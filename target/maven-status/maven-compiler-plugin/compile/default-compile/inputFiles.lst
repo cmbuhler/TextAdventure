@@ -2,13 +2,13 @@
 /Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/engine/AttackCommand.java
 /Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/engine/Command.java
 /Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/engine/CommandParser.java
-/Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/engine/D6.java
-/Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/engine/D8.java
-/Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/engine/Dice.java
 /Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/engine/HelpCommand.java
 /Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/engine/InventoryCommand.java
 /Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/engine/SearchCommand.java
 /Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/engine/WeaponLoader.java
+/Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/engine/dice/D6.java
+/Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/engine/dice/D8.java
+/Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/engine/dice/Dice.java
 /Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/entity/Entity.java
 /Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/entity/Item.java
 /Users/chasebuhler/dev/TextAdventure/src/main/java/com/chasesspace/adventure/entity/Weapon.java

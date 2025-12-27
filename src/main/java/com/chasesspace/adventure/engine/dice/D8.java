@@ -1,5 +1,7 @@
 package com.chasesspace.adventure.engine.dice;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 public class D8 extends Dice {
     public D8(int count) {
         super(count);
@@ -7,6 +9,6 @@ public class D8 extends Dice {
 
     @Override
     public int rollDie() {
-        return (int)(Math.random() * 8) + 1;
+        return (int)(ThreadLocalRandom.current().nextDouble() * 8) + 1;
     }
 }
