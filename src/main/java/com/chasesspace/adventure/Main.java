@@ -41,7 +41,6 @@ public class Main
                 System.out.println("Thanks for playing!");
             } else {
                 Command command = CommandParser.parseCommand(input);
-                weapons.forEach(w -> System.out.println("Loaded weapon: " + w.getName() + ": " + w.getDamage()));
 
                 if (command != null) {
                     String[] commandArgs = input.split(" ");

@@ -1,6 +1,6 @@
 package com.chasesspace.adventure.entity;
 
-import com.chasesspace.adventure.engine.Dice;
+import com.chasesspace.adventure.engine.dice.Dice;
 
 public class Weapon extends Item {
     private Dice damageDie;

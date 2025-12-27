@@ -1,0 +1,48 @@
+{
+    "areas": [
+        {
+            "id": "example_room",
+            "name": "Example Room",
+            "description": "This is a description of the example room that will be displayed to the player when they first enter the room.",
+            "exits": {
+                "NORTH": {
+                    "connectionId": "door_001",
+                    "description": "A door leading to the north room.",
+                    "targetRoomId": "north_room"
+                }
+            }
+        },
+        {
+            "id": "north_room",
+            "name": "North Room",
+            "description": "This is a description of the north room that will be displayed to the player when they first enter the room.",
+            "exits": {
+                "SOUTH": {
+                    "connectionId": "door_001",
+                    "targetRoomId": "example_room"
+                }
+            }
+        },
+        {
+            "id": "east_room",
+            "name": "East Room",
+            "description": "This is a description of the east room that will be displayed to the player when they first enter the room.",
+            "exits": {
+                "NORTH": {
+                    "targetRoomId": "north_room",
+                    "description": "A door leading to the north room."
+                }
+            }
+        }
+    ],
+    "connections": [
+        {
+            "id": "door_001",
+            "name": "Wooden Door",
+            "properties": {
+                "locked": "true",
+                "keyId": "key_001"
+            }
+        }
+    ]
+}
